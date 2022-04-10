@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+    <head>
+        <title>CV</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <style>
+        body{
+            display:flex;
+            flex-direction: column;
+            background-image:url("imgcv.png");
+        }
+        h1{
+            display:inline;
+            color:aliceblue;
+            text-align: center;
+            background-color: blue;
+            padding: 10px;
+            width: 9.5%;
+            border-radius: 50px;
+            margin:center;
+            justify-content:center;
+        }
+        .moi{
+            width: 15%;
+        }
+        .reseaux{
+            font-size: 16px;
+            flex-direction: row;
+        }
+
+        /*header, footer{
+            height: 20%;
+            display: flex;
+            background-color: rgb(84, 173, 201);
+            font-size: large;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 1%;
+            padding-top: 1%;
+        }*/
+
+        .test{
+            display:flex;
+            height: auto;
+            background-color: rgb(84, 173, 201);
+            font-size: large;
+            justify-content: flex-end;
+            align-items:center ;
+            padding-bottom: 1%;
+            padding-top: 1%;    
+            flex-direction: column;
+        }
+
+        .reseaux, .mentions{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+<!-- Créer Powerpoint personnel avec comme partie cahier des charges (coin gauche haut), livrable "ce qu'on a fait" (coin droite haut), méthodes/technologies (coin gauche bas) et compétances (coin droite bas) de chaque SAE -->
+    <body>
+        <header>
+            <h1>Yann Bibard</h1>
+            <h2><strong>Contact : <a href="tel:06-47-98-27-14">06.47.98.27.14</a> Email : <a href="mailto:bibardyann33880@gmail.com">bibardyann33880@gmail.com</a></strong></h2>
+        </header>
+        <img class="moi" src="PhotoMoi.jpg">
+        <p>Etudiant en BUT Informatique à Bordeaux, sur le site de Gradignan. </p>
+
+        <footer class="test">
+            <div class="reseaux">
+                <h3> Nos Réseaux : </h3>
+            </div>
+    
+            <div class="mentions">
+                <p>Mentions légales </p>
+            </div>
+        </footer>
+    </body>
+
+    </body>
+</html>
