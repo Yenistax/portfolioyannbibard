@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-image:url("img/ImageBackgroundPortfolio.png");
+}
+
+.headermoi{
+    height: 20%;
+    display: flex;
+    background-color: darkslategray;
+    font-size: large;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+[alt="Photo Bibard Yann"]{
+    width: 100%;
+    height: 100%;
+}
+
+a:any-link
+{ 
+    text-decoration:none;
+    color:black;
+}
+
+a:hover{
+    color:white;
+}
+
+main{
+    width:100%;
+}
+
+.apropos{
+    display:flex;
+    justify-content: center;
+    padding:2%;
+    align-items: center;
+    height: 10%;
+}
+
+.imgmoi{
+    width: 10%;
+}
+
+.proposmoi{
+    width:30%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.textmoi{
+    padding-left: 1%;
+    font-size: 20px;
+}
+
+.projetstext{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+#ProjetsRetex{
+    padding-left: 10%;
+}
+
+#ProjetsRetex img{
+    width: 15%;
+    height:130px;
+    filter: grayscale();
+    transition: filter 0.4s ease-in-out;
+}
+
+#ProjetsRetex img:hover{
+    filter: none;
+}
+
+.contactPerso{
+    font-size: 24px;
+    border-style:solid;
+    border-color: black;
+    padding: 10px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ImgContact {
+    display: flex;
+    justify-content: center;
+}
+
+.ImgContact img {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50px;
+}
